@@ -21,7 +21,7 @@ Hyper parameters optimization  results in a RMSE reduction of 32.27% compared wi
 
 
 ### If you were given more time with this dataset, where do you think you would spend more time?
-TODO: Add your explanation
+In data preprocesing, selecting the most relevant columns for the prediction.
 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 |model|hpo1|hpo2|hpo3|score|
@@ -29,6 +29,11 @@ TODO: Add your explanation
 |initial|?|?|?|?|
 |add_features|?|?|?|?|
 |hpo|?|?|?|?|
+
+model	hpo1	hpo2	hpo3	score
+initial	best quality,10 min	-	-	1.85504
+add_features	best quality,10 min	additional features	-	0.61500
+hpo	best quality,10 min	additional features	Hyper parameter optimization	0.74600
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
