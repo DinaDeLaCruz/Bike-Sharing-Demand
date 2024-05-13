@@ -43,4 +43,4 @@ TODO: Replace the image below with your own.
 ![model_test_score.png](img/model_test_score.png)
 
 ## Summary
-TODO: Add your explanation
+The way we do data preprocessing significantly impacts how well a model performs. This is evident in the results, where separating the datetime components led to a more accurate model.
