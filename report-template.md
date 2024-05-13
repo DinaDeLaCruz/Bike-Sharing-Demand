@@ -1,23 +1,24 @@
 # Report: Predict Bike Sharing Demand with AutoGluon Solution
-#### NAME HERE
+#### Karolay De La Cruz
 
 ## Initial Training
 ### What did you realize when you tried to submit your predictions? What changes were needed to the output of the predictor to submit your results?
-TODO: Add your explanation
+I needed to convert all negative values to cero in order to be evaluated in kaggle.
 
 ### What was the top ranked model that performed?
-TODO: Add your explanation
+The second model with additional features: 0.615
 
 ## Exploratory data analysis and feature creation
 ### What did the exploratory analysis find and how did you add additional features?
-TODO: Add your explanation
+Spliting features in datetime gives better results. I added them by extraction of year, month, day, and hour of the datetime column.
 
 ### How much better did your model preform after adding additional features and why do you think that is?
-TODO: Add your explanation
+Adding aditional featurs results in a RMSE reduction of 36.11% compared with the first model.
 
 ## Hyper parameter tuning
 ### How much better did your model preform after trying different hyper parameters?
-TODO: Add your explanation
+Hyper parameters optimization  results in a RMSE reduction of 32.27% compared with the first model. Is better than the first one but not better than second with only additional features.
+
 
 ### If you were given more time with this dataset, where do you think you would spend more time?
 TODO: Add your explanation
