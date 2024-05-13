@@ -26,14 +26,14 @@ In data preprocesing, selecting the most relevant columns for the prediction.
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 |model|hpo1|hpo2|hpo3|score|
 |--|--|--|--|--|
-|initial|?|?|?|?|
-|add_features|?|?|?|?|
-|hpo|?|?|?|?|
+|initial|best quality,10 min|?|?|1.85504|
+|add_features|best quality,10 min|?|?|0.61500|
+|hpo|best quality,10 min|additional features|Hyperparameter optimization|0.74600|
 
-model	hpo1	hpo2	hpo3	score
-initial	best quality,10 min	-	-	1.85504
-add_features	best quality,10 min	additional features	-	0.61500
-hpo	best quality,10 min	additional features	Hyper parameter optimization	0.74600
+
+initial		-	-	
+add_features	best quality,10 min	additional features	-	
+hpo	best quality,10 min		 	
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
